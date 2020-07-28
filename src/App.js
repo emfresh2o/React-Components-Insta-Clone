@@ -42,13 +42,14 @@ const App = () => {
       }
 
   }))
-  
+}
     return (
       <div className="App">
-        <Posts likePost={likePost} posts={posts}/>
+      <Posts likePost={likePost} posts={posts} />
         <SearchBar />
       </div>
     )
   }
-}
+
+
 export default App;
