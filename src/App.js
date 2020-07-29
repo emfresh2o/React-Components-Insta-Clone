@@ -42,7 +42,7 @@ const App = () => {
       }
 
   }))
-}
+  }
     return (
       <div className="App">
       <Posts likePost={likePost} posts={posts} />
